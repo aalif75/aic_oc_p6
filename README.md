@@ -15,7 +15,7 @@ Ce projet décrit des scrips python pour automatiser la gestion des comptes util
 ## Technologies utilisées 
 
   * VirtualBox  
-  * GNS3  
+  * GNS3VM
   * 2 Machines Ubuntu 20.04  
    * IDE : Pycharm 
 
