@@ -5,7 +5,7 @@
  *  Date de création : 15/02/2022  
   * Dernière modification : 20/02/2022  
   * Testé sous : Python 3.8  
- *  Projet sous Licence  MIT 
+ *  Projet sous: LICENSE  MIT 
  
 ## Contexte du projet
 
@@ -23,7 +23,7 @@ Ce projet décrit des scrips python pour automatiser la gestion des comptes util
 ## Contenu du dépôt
 
  * README.md  
- * lICENCE
+ * lICENSE
  * Data :user.txt, user.csv
  * Script Python :add_users.py  
  * Script Python :del_user.py  
