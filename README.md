@@ -29,7 +29,7 @@ Ce projet décrit des scrips python pour automatiser la gestion des comptes util
 * Fichier 001_hosts.csv
 * Fichier 001_users.csv
 * image topologie.png
-* Script config.my
+* Script config.py
 * Script Python :main.py  
 * Script check_file.py
 * Script  main.py
