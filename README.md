@@ -35,6 +35,7 @@ Ce projet décrit des scrips python pour automatiser la gestion des comptes util
 * Script  main.py
 * Script read_hosts_csv.py
 * Script  read_users_csv.py
+* Script creat_users.py
 * Script ssh_del_users.py
 * Script ssh_read_users.py
   
