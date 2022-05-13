@@ -38,11 +38,11 @@ Ce projet décrit des scrips python pour automatiser la gestion des comptes util
 * Script ssh_read_users.py
 * Script ssh_del_users.py
 
-## Rôle  et déroulement du script main 
+## Fonctionnement du programme  main 
 
 Le script main se lance ou se configure  avec deux arguments:
 un préfixe  pour manipuler  le jeu de fichiers d'entrée csv  sous la forme  numérique 999.
-Et une  lettre C , R ou D  pour exécuter les actions suivantes:
+Et une  lettre **C** ,**R** ou **D** pour exécuter les actions suivantes:
 
 * **C** pour créer les utilisateurs sur les machines  distantes 
 * **R** pour lire ou éditer la liste des utilisateurs des machines distantes
