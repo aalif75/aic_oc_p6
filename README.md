@@ -9,7 +9,7 @@
  
 ## Contexte du projet
 
-Ce projet décrit des scripts python pour automatiser la gestion des comptes utilisateurs, sous Ubuntu 20.04.1 tls ; sur un site distant, via une connexion sécurisée SSH. Et de partager  le code avec la communauté open source git hub.
+Ce projet décrit des scripts python pour automatiser la gestion des comptes utilisateurs, sous Ubuntu 20.04.1 TLS ; sur un site distant, via une connexion sécurisée SSH. Et de partager  le code avec la communauté open source git hub.
 
 
 ## Technologies utilisées 
