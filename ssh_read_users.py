@@ -1,4 +1,4 @@
-import paramiko
+import paramiko  # bibio  pour gerer les connexion ssh s/python
 
 
 def ssh_read_users(hosts,adminLogin,adminPwd,):  # Edition liste des utlisateurs par machine
@@ -10,7 +10,7 @@ def ssh_read_users(hosts,adminLogin,adminPwd,):  # Edition liste des utlisateurs
         client.load_system_host_keys()
         client.connect(host, username=adminLogin, password=adminPwd)
         results.append("Successfully connected to " + host + '\n')
-        cmd = "sudo tail -3  /etc/passwd| awk -F: '{print $1}'"  # Edition de la premiere colonne des 3 dernieres lignes du fichier /etc/passwd
+        # Edition de la premiere colonne des 3 dernieres lignes du fichier /etc/passwd
         cmd = "sudo awk -F ':' '$3>1001 && $3<4000 {print \"utilisateur : \"$1}' /etc/passwd"
         ssh_stdin, ssh_stdout, ssh_stderr = client.exec_command(cmd)
         results.append("cmd:"+cmd)

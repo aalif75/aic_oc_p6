@@ -34,7 +34,7 @@ if not cf.checkFile(userfile):
 
 # Appel  module checkFile hostfile
 if not cf.checkFile(hostfile):
-    print("le fichier n'existe pas:" + hostfile)
+    # print("le fichier n'existe pas:" + hostfile)
     print("le fichier: " + hostfile + " n'existe pas:")
     exit(1)
 

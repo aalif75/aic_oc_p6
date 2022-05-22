@@ -4,7 +4,7 @@ def ssh_creat_users(logins,hosts, adminLogin, adminPwd):
 
     results = []  # init  listes cmd executées sous sudo
 
-    for host in hosts:  # parcourir les liste des hosts ou a remplacer par  open  hosts.csv
+    for host in hosts:  # parcourt  les liste des hosts
         client = paramiko.SSHClient()
         client.load_system_host_keys()
         client.connect(host, username=adminLogin, password=adminPwd)
